@@ -1,0 +1,21 @@
+# Constructicon
+
+### Morphological terms
+
+In the Russian Constructicon, we adopt a set of terms to tag morphological information of slot-fillers:
+
+- **Adverb** – An uninflected word that modifies a verb, an adjective, an adverb, or a clause. Adverbs typically express manner, place, time, frequency, degree of intensity, degree of certainty, etc. : e.g. **примерно/приблизительно Prep NumCrd (NP-Gen)** *Нужно приготовить супа примерно на восемь порций.*
+- **Conjunction** – A word that connects words, phrases, or clauses, including complex conjunctions (e.g. несмотря на то, что). : e.g. **VP-Inf(-то) ~VP, а/но Cl** *Спросить спрошу, но он может не знать.*
+- **Converb** – A nonfinite verb form that serves to express adverbial subordination (notions like 'when', 'because', 'after' and 'while'). A converb denotes an additional action associated with the main action expressed by the predicate. Converbs are uninflected and function as adjuncts that carry temporal, causal or other meanings. : e.g. **Будучи NP-Ins, Cl** *Будучи американцем, он мечтал разбогатеть.*
+- **Interjection** – a word that constitutes an utterance on its own and expresses a spontaneous feeling or reaction of the speaker. : e.g. **ах PronPers-Nom NP-Nom!** *Ах ты подлец!*
+- **Negation Marker** – *Не* or *ни,* a word that contains them (e.g. *никогда, некто, незачем*) and the word *нет*. : e.g. **NP-Dat (не) Verb-ся** *Мне не спится.*
+- **Not Applicable** – The construction does not have anchor words or contains an anchor word that is obsolete and no longer analyzable (e.g. *Бог весть.)* : e.g. ****VP NP-Ins** *Мы готовили обед всей семьей.*
+- **Noun** – A word that names something, such as a person, place, thing, abstract idea, etc. : e.g. **толпа NP-Gen.Pl** *Толпа людей.*
+- **Numeral** – A word that describes a numerical quantity or the order of objects in the process of counting. The tag is used for cardinal, collective and ordinal numerals. : e.g. **VP в двух словах** *Он в двух словах рассказал про свою книгу.*
+- **Onomatopoeia** – A word that phonetically imitates or resembles ****the sound it describes. : e.g. **Cl – и тю-тю/и тютю!** *Он забрал машину – и тю-тю! Больше мы не встречались.*
+- **Participle** – A non-finite verb form that denotes a property associated with an action. Along with the features of a verb (aspect, tense, voice), this form has features of an adjective (gender, number, case) and agrees with a noun. : e.g. **видавший виды NP** *На видавшем виды велосипеде поехал дальше.*
+- **Particle** – A word, usually uninflected, that lacks referential content (as opposed to nouns, verbs, adjectives, etc.) and mostly serves discourse functions by conveying various modal and pragmatic attitudes of the speaker towards some information in a sentence. : e.g. **VP же NP-Nom!** *Живут же некоторые!*
+- **Predicative** – Words denoting a state and acting as a predicate of an impersonal sentence including modals (*можно, надо,* etc). : e.g. **NP-Dat Cop пора VP-Inf** *Мне пора идти в школу.*
+- **Preposition** – A function word (or a group of words) governing, and usually preceding, a noun оr a pronoun to express a relation to another word or element in a sentence. This word usually conveys the meaning in the domain of time, location, direction, etc. : e.g. **NP-Nom Cop Adj-Nom до NP-Gen** *Родители религиозные до фанатизма.*
+- **Pronoun** – a word that substitutes for nominal parts of speech a noun (e.g. the pronouns *он* и *кто*substitute for a noun, the pronoun *этот* substitutes for an adjective, *сколько* substitutes for a numeral, and *когда* substitutes for an adverb). Thus, we use this tag for interrogative/relative pronouns and pronominal adverbs like *как*, *когда*. : e.g. **И вот ещё что (Adv/VP): Cl** *И вот ещё что: я к Маше не поеду*.
+- **Verb** – a word that indicates an action, event or state. We use this tag for finite verb forms and infinitives, whereas participles and converbs are annotated with other tags. We don't use this tag for desemanticized or obsolete forms that are not synchronically analyzable (e.g. *весть* in *Бог весть кто*). : e.g. **PronPers-Nom PronPers-Dat дать VP-Inf!** *Я тебе дам так себя вести!*
