@@ -1,0 +1,17 @@
+Employees:
+- dan:
+    name: Dan D. Veloper
+    job: Developer
+    team: DevOps
+- dora:
+   name: Dora D. Veloper
+   job: Project Manager
+   team: Web Subscriptions
+
+---
+
+To_hire:
+  - jim:
+      name: Jim K. Holland
+      job: Data Scientist
+      team: AI Solutions
